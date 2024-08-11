@@ -28,7 +28,7 @@ function Home() {
     <section
       style={{
         backgroundColor: bgColor,
-        transition: "background-color 1.5s ease",
+        transition: "background-color 1s ease",
       }}
     >
       <Nav />

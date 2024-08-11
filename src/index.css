@@ -24,6 +24,9 @@ h1 {
 
 h3 {
   @apply text-[100px] font-bold;
+}
+
+.skribbleGrad {
   background: linear-gradient(90deg, #b721ff 0%, #21d4fd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

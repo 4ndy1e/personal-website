@@ -1,6 +1,6 @@
 function Lander() {
   return (
-    <section className="flex flex-col items-center justify-center h-[100vh]">
+    <section className="flex flex-col items-center justify-center h-[100vh] mb-[400px]">
       <div className="w-[900px] flex-col text-left">
         <h2 className="text-white text-3xl font-bold font-['Inter']">
           Andy Le

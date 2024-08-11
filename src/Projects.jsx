@@ -2,27 +2,48 @@ import BlurFade from "./components/BlurFade";
 
 function Projects() {
   return (
-    <section className="h-[1000px] flex flex-col mx-[100px] max-w-[1280px] justify-center">
-      <div className="flex w-full">
-        <h2 className="text-6xl font-bold my-16">Latest Work.</h2>
+    <section className="flex flex-col items-center">
+      <div className="flex flex-col">
+        <h2 className="text-6xl font-bold my-16 mx-[10vw] text-left">
+          Latest Work.
+        </h2>
+        <div className="flex gap-8">
+          <ProjectCards />
+        </div>
       </div>
-
-      <ProjectCards />
     </section>
   );
 }
 
 function ProjectCards() {
   return (
-    <BlurFade delay={0.7} inView>
-      <div className="flex flex-col">
-        <div className="w-[595px] h-[693px] bg-[#e2e2e2] card">
-          <h3 className="">Skribble.</h3>
-        </div>
-        <h4> SKRIBBLE</h4>
-        <p className="projDesc"> Online Drawing Platform </p>
+    <section>
+      <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
+        <BlurFade delay={0.7} inView className="w-2/3">
+          <div className="flex flex-col">
+            <div className="h-[593px] bg-[#e2e2e2] card">
+              <h3 className="skribbleGrad">Skribble.</h3>
+            </div>
+            <h4> SKRIBBLE</h4>
+            <p className="projDesc"> Online Drawing Platform </p>
+          </div>
+        </BlurFade>
+        <BlurFade delay={0.7 + 0.1} inView className="w-1/3">
+          <div className="flex flex-col">
+            <div className="h-[593px] bg-[#FFA800] card">
+              <img
+                src="avacado.png"
+                alt="avacado"
+                className="aspect-square w-[90%]"
+              />
+              <h3 className="text-white">FIBER</h3>
+            </div>
+            <h4> FIBER</h4>
+            <p className="projDesc"> AI Powered Food Rating App </p>
+          </div>
+        </BlurFade>
       </div>
-    </BlurFade>
+    </section>
   );
 }
 
