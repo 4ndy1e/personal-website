@@ -8,7 +8,7 @@
 }
 
 h1 {
-  @apply text-white text-[64px] font-bold font-['Inter'] my-16 leading-none;
+  @apply text-white text-[75px] font-bold font-['Inter'] my-16 leading-none;
 }
 
 .asu {
