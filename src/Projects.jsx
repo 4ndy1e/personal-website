@@ -17,7 +17,7 @@ function Projects() {
 
 function ProjectCards() {
   return (
-    <section>
+    <section className="flex flex-col gap-8">
       <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
         <BlurFade delay={0.7} inView className="w-2/3">
           <div className="flex flex-col">
@@ -40,6 +40,42 @@ function ProjectCards() {
             </div>
             <h4> FIBER</h4>
             <p className="projDesc"> AI Powered Food Rating App </p>
+          </div>
+        </BlurFade>
+      </div>
+
+      <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
+        <BlurFade delay={0.7} inView className="w-2/5">
+          <div className="flex flex-col">
+            <div className="h-[593px] bg-[#DEEAD5] card">
+              <img
+                src="sip&play.png"
+                alt="sip"
+                className="aspect-square w-[90%]"
+              />
+            </div>
+            <h4> SIP & PLAY</h4>
+            <p className="projDesc"> 1st UI / UX Design </p>
+          </div>
+        </BlurFade>
+        <BlurFade delay={0.7 + 0.1} inView className="w-3/5">
+          <div className="flex flex-col">
+            <div className="h-[593px] bg-white card">
+              <h3 className="text-black font-[times]">
+                Protein<span className="text-[#FF6347]">Pal</span>
+              </h3>
+            </div>
+            <h4> PROTEINPAL</h4>
+            <p className="projDesc"> Recipe Page Frontend </p>
+          </div>
+        </BlurFade>
+      </div>
+      <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
+        <BlurFade delay={0.7} inView className="w-full">
+          <div className="flex flex-col">
+            <img src="calculator.png" alt="calc" className="rounded-[50px]" />
+            <h4> CALCULATOR</h4>
+            <p className="projDesc"> Basic 4 function calculator </p>
           </div>
         </BlurFade>
       </div>

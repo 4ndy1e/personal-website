@@ -5,7 +5,7 @@ function Lander() {
         <h2 className="text-white text-3xl font-bold font-['Inter']">
           Andy Le
         </h2>
-        <h1 className="mt-8">
+        <h1 className="mt-12">
           Sofware Engineer
           <br />
           based in Phoenix.

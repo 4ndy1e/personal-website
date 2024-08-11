@@ -10,7 +10,7 @@ function Home() {
     const handleScroll = () => {
       const scrollPoint = 750; // Change this value to the point where you want to change color
       if (window.scrollY > scrollPoint) {
-        setBgColor("white"); // New background color
+        setBgColor("#EEF1F4"); // New background color
       } else {
         setBgColor("black"); // Original background color
       }
