@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  width: 100vw;
+}
+
+h1 {
+  @apply text-white text-[64px] font-bold font-['Inter'] my-16 leading-none;
+}
+
+.asu {
+  font-size: 72px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 198, 39, 1) 0%,
+    rgba(140, 29, 64, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
