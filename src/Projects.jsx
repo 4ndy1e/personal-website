@@ -37,7 +37,7 @@ function ProjectCards() {
                   alt="avacado"
                   className="aspect-square w-[90%]"
                 />
-                <h3 className="text-white">FIBER</h3>
+                <h3 className="text-white text-6xl">FIBER</h3>
               </div>
             </a>
             <h4> FIBER</h4>
