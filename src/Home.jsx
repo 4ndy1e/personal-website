@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Lander from "./Lander";
 import Nav from "./Nav";
 import Projects from "./Projects";
+import Experiences from "./Experiences";
 
 function Home() {
   const [bgColor, setBgColor] = useState("black");
@@ -33,7 +34,11 @@ function Home() {
     >
       <Nav />
       <Lander />
-      <Projects />
+
+      <section className="mx-[15vw]">
+        <Projects />
+        <Experiences />
+      </section>
     </section>
   );
 }
