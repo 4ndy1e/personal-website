@@ -3,6 +3,7 @@ import Lander from "./Lander";
 import Nav from "./Nav";
 import Projects from "./Projects";
 import Experiences from "./Experiences";
+import Footer from "./Footer";
 
 function Home() {
   const [bgColor, setBgColor] = useState("black");
@@ -38,6 +39,7 @@ function Home() {
       <section className="mx-[15vw]">
         <Projects />
         <Experiences />
+        <Footer />
       </section>
     </section>
   );

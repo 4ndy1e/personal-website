@@ -2,7 +2,7 @@ import BlurFade from "./components/BlurFade";
 
 function Projects() {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center my-96">
       <div className="flex flex-col">
         <h2 className="text-7xl font-bold my-16 text-left">Latest Work.</h2>
         <div className="flex gap-8">
