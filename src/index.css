@@ -36,6 +36,11 @@ h3 {
   @apply rounded-[50px] flex flex-col items-center justify-center h-[400px];
 }
 
+.card:hover {
+  @apply shadow-2xl;
+  width: 100%;
+}
+
 h4 {
   @apply font-bold font-['Inter'] text-left pt-4 text-2xl;
 }

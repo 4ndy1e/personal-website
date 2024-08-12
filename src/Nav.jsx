@@ -6,27 +6,25 @@ function Nav() {
       </div>
       <div className="h-[45px] justify-start items-center gap-[50px] flex">
         <div className="w-[30px] h-[45px] flex-col justify-center items-center inline-flex">
-          <a href="https://www.linkedin.com/in/4ndyle/">
+          <a href="https://www.linkedin.com/in/4ndyle/" target="_blank">
             <img
               className="w-[30px] h-[30px]"
               src="linkedin.png"
               alt="LinkedIn"
-              target="_blank"
             />
           </a>
         </div>
         <div className="w-[30px] h-[45px] flex-col justify-center items-center inline-flex">
-          <a href="mailto:4ndyle@gmail.com">
+          <a href="mailto:4ndyle@gmail.com" target="_blank">
             <img className="w-[30px] h-[30px]" src="mail.png" alt="Mail" />
           </a>
         </div>
         <div className="w-[30px] h-[45px] flex-col justify-center items-center inline-flex">
-          <a href="instagram.com">
+          <a href="https://www.instagram.com" target="_blank">
             <img
               className="w-[30px] h-[30px]"
               src="insta.png"
               alt="Instagram"
-              target="_blank"
             />
           </a>
         </div>
