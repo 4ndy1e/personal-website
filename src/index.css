@@ -33,7 +33,7 @@ h3 {
 }
 
 .card {
-  @apply rounded-[50px] flex flex-col items-center justify-center h-[500px];
+  @apply rounded-[50px] flex flex-col items-center justify-center h-[400px];
 }
 
 h4 {
@@ -42,4 +42,8 @@ h4 {
 
 .projDesc {
   @apply text-[#B4B4B4] text-left;
+}
+
+h5 {
+  @apply font-['Inter'] font-medium text-3xl;
 }
