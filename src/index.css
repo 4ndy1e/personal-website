@@ -33,7 +33,7 @@ h3 {
 }
 
 .card {
-  @apply rounded-[50px] flex flex-col items-center justify-center;
+  @apply rounded-[50px] flex flex-col items-center justify-center h-[500px];
 }
 
 h4 {

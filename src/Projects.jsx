@@ -21,7 +21,7 @@ function ProjectCards() {
       <div className="flex mx-[10vw] gap-8 max-w-[1500px]">
         <BlurFade delay={0.7} inView className="w-2/3">
           <div className="flex flex-col">
-            <div className="h-[593px] bg-[#e2e2e2] card">
+            <div className="bg-[#e2e2e2] card">
               <h3 className="skribbleGrad">Skribble.</h3>
             </div>
             <h4> SKRIBBLE</h4>
@@ -30,7 +30,7 @@ function ProjectCards() {
         </BlurFade>
         <BlurFade delay={0.7 + 0.1} inView className="w-1/3">
           <div className="flex flex-col">
-            <div className="h-[593px] bg-[#FFA800] card">
+            <div className="bg-[#FFA800] card">
               <img
                 src="avacado.png"
                 alt="avacado"
@@ -47,7 +47,7 @@ function ProjectCards() {
       <div className="flex mx-[10vw] gap-8 max-w-[1500px]">
         <BlurFade delay={0.7} inView className="w-2/5">
           <div className="flex flex-col">
-            <div className="h-[593px] bg-[#DEEAD5] card">
+            <div className="bg-[#DEEAD5] card">
               <img
                 src="sip&play.png"
                 alt="sip"
@@ -60,7 +60,7 @@ function ProjectCards() {
         </BlurFade>
         <BlurFade delay={0.7 + 0.1} inView className="w-3/5">
           <div className="flex flex-col">
-            <div className="h-[593px] bg-white card">
+            <div className="bg-white card">
               <h3 className="text-black font-[times]">
                 Protein<span className="text-[#FF6347]">Pal</span>
               </h3>
