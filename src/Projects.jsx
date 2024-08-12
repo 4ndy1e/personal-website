@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-col">
-        <h2 className="text-6xl font-bold my-16 mx-[10vw] text-left">
+        <h2 className="text-7xl font-bold my-16 mx-[10vw] text-left">
           Latest Work.
         </h2>
         <div className="flex gap-8">
@@ -18,7 +18,7 @@ function Projects() {
 function ProjectCards() {
   return (
     <section className="flex flex-col gap-8">
-      <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
+      <div className="flex mx-[10vw] gap-8 max-w-[1500px]">
         <BlurFade delay={0.7} inView className="w-2/3">
           <div className="flex flex-col">
             <div className="h-[593px] bg-[#e2e2e2] card">
@@ -44,7 +44,7 @@ function ProjectCards() {
         </BlurFade>
       </div>
 
-      <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
+      <div className="flex mx-[10vw] gap-8 max-w-[1500px]">
         <BlurFade delay={0.7} inView className="w-2/5">
           <div className="flex flex-col">
             <div className="h-[593px] bg-[#DEEAD5] card">
@@ -70,7 +70,7 @@ function ProjectCards() {
           </div>
         </BlurFade>
       </div>
-      <div className="flex border-2 mx-[10vw] gap-8 max-w-[1500px]">
+      <div className="flex mx-[10vw] gap-8 max-w-[1500px]">
         <BlurFade delay={0.7} inView className="w-full">
           <div className="flex flex-col">
             <img src="calculator.png" alt="calc" className="rounded-[50px]" />
