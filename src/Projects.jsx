@@ -17,7 +17,7 @@ function ProjectCards() {
   return (
     <section className="flex flex-col gap-8">
       <div className="flex gap-8 max-w-[1500px]">
-        <BlurFade delay={0.7} inView className="w-2/3">
+        <BlurFade delay={0.5} inView className="w-2/3">
           <div className="flex flex-col">
             <div className="bg-[#e2e2e2] card">
               <h3 className="skribbleGrad">Skribble.</h3>
@@ -26,7 +26,7 @@ function ProjectCards() {
             <p className="projDesc"> Online Drawing Platform </p>
           </div>
         </BlurFade>
-        <BlurFade delay={0.7 + 0.1} inView className="w-1/3">
+        <BlurFade delay={0.5 + 0.1} inView className="w-1/3">
           <div className="flex flex-col">
             <div className="bg-[#FFA800] card">
               <img
@@ -43,7 +43,7 @@ function ProjectCards() {
       </div>
 
       <div className="flex gap-8 max-w-[1500px]">
-        <BlurFade delay={0.7} inView className="w-2/5">
+        <BlurFade delay={0.5} inView className="w-2/5">
           <div className="flex flex-col">
             <div className="bg-[#DEEAD5] card">
               <img
@@ -56,7 +56,7 @@ function ProjectCards() {
             <p className="projDesc"> 1st UI / UX Design </p>
           </div>
         </BlurFade>
-        <BlurFade delay={0.7 + 0.1} inView className="w-3/5">
+        <BlurFade delay={0.5 + 0.1} inView className="w-3/5">
           <div className="flex flex-col">
             <div className="bg-white card">
               <h3 className="text-black font-[times]">
@@ -69,7 +69,7 @@ function ProjectCards() {
         </BlurFade>
       </div>
       <div className="flex gap-8 max-w-[1500px]">
-        <BlurFade delay={0.7} inView className="w-full">
+        <BlurFade delay={0.5} inView className="w-full">
           <div className="flex flex-col">
             <img src="calculator.png" alt="calc" className="rounded-[50px]" />
             <h4> CALCULATOR</h4>
