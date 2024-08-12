@@ -35,7 +35,7 @@ function ProjectCards() {
                 <img
                   src="avacado.png"
                   alt="avacado"
-                  className="aspect-square w-[90%]"
+                  className="aspect-square w-[85%] max-w-[300px]"
                 />
                 <h3 className="text-white text-6xl">FIBER</h3>
               </div>
