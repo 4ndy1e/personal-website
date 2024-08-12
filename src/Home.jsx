@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Lander from "./Lander";
 import Nav from "./Nav";
+import Projects from "./Projects";
 
 function Home() {
   const [bgColor, setBgColor] = useState("black");
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPoint = 300; // Change this value to the point where you want to change color
+      const scrollPoint = 750; // Change this value to the point where you want to change color
       if (window.scrollY > scrollPoint) {
-        setBgColor("white"); // New background color
+        setBgColor("#EEF1F4"); // New background color
       } else {
         setBgColor("black"); // Original background color
       }
@@ -27,20 +28,12 @@ function Home() {
     <section
       style={{
         backgroundColor: bgColor,
-        transition: "background-color 1.5s ease",
+        transition: "background-color 1s ease",
       }}
     >
       <Nav />
       <Lander />
       <Projects />
-    </section>
-  );
-}
-
-function Projects() {
-  return (
-    <section className="h-[1000px] border-2">
-      <h1 className="text-black">Projects</h1>
     </section>
   );
 }

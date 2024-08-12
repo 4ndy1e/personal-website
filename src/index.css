@@ -8,7 +8,7 @@
 }
 
 h1 {
-  @apply text-white text-[64px] font-bold font-['Inter'] my-16 leading-none;
+  @apply text-white text-[75px] font-bold font-['Inter'] my-16 leading-none;
 }
 
 .asu {
@@ -20,4 +20,26 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  @apply text-[100px] font-bold;
+}
+
+.skribbleGrad {
+  background: linear-gradient(90deg, #b721ff 0%, #21d4fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  @apply rounded-[50px] flex flex-col items-center justify-center h-[500px];
+}
+
+h4 {
+  @apply font-bold font-['Inter'] text-left pt-4 text-2xl;
+}
+
+.projDesc {
+  @apply text-[#B4B4B4] text-left;
 }
