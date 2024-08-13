@@ -7,8 +7,17 @@
   width: 100vw;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  box-sizing: border-box;
+}
+
 h1 {
-  @apply text-white text-[75px] font-bold font-['Inter'] my-16 leading-none;
+  @apply text-white text-[75px] font-bold font-['Inter'] my-16 leading-none max-lg:text-5xl max-sm:text-4xl max-sm:my-8 max-[480px]:text-3xl;
 }
 
 .asu {
@@ -20,6 +29,8 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @apply max-lg:text-5xl max-sm:text-4xl max-[480px]:text-3xl;
 }
 
 h3 {

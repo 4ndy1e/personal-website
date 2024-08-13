@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <section className="fixed top-0 left-0 w-[100%] h-[57px] px-6 py-3 border-b border-[#606060] justify-between items-center flex bg-black z-[10]">
+    <section className="fixed top-0 left-0 w-full h-[57px] px-6 py-3 border-b border-[#606060] justify-between items-center flex bg-black z-[10]">
       <div className="text-white text-base font-normal font-['Inter'] leading-snug">
         Andy Le
       </div>
