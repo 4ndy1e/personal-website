@@ -36,7 +36,7 @@ function Home() {
       <Nav />
       <Lander />
 
-      <section className="mx-[15vw]">
+      <section className="mx-[15vw] max-sm:mx-[10vw]">
         <Projects />
         <Experiences />
         <Footer />

@@ -44,22 +44,21 @@ h3 {
 }
 
 .card {
-  @apply rounded-[50px] flex flex-col items-center justify-center h-[400px];
+  @apply rounded-[50px] flex flex-col items-center justify-center h-[400px] max-md:h-[250px] max-[550px]:w-[250px];
 }
 
 .card:hover {
   @apply shadow-2xl;
-  width: 100%;
 }
 
 h4 {
-  @apply font-bold font-['Inter'] text-left pt-4 text-2xl;
+  @apply font-bold font-['Inter'] text-left pt-4 text-2xl max-md:text-lg;
 }
 
 .projDesc {
-  @apply text-[#B4B4B4] text-left;
+  @apply text-[#B4B4B4] text-left max-md:text-sm;
 }
 
 h5 {
-  @apply font-['Inter'] font-medium text-3xl;
+  @apply font-['Inter'] font-medium text-3xl max-[550px]:text-xl;
 }
