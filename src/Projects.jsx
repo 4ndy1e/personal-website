@@ -2,7 +2,7 @@ import BlurFade from "./components/BlurFade";
 
 function Projects() {
   return (
-    <section className="flex flex-col items-center my-96">
+    <section className="flex flex-col items-center my-96 max-w-[1800px]">
       <div className="flex flex-col">
         <h2 className="text-7xl font-bold my-16 text-left max-md:text-6xl max-md:text-center max-[550px]:text-5xl">
           Latest Work.
@@ -18,7 +18,7 @@ function Projects() {
 function ProjectCards() {
   return (
     <section className="flex flex-col gap-8">
-      <div className="flex gap-8 max-w-[1500px] max-[550px]:flex-col max-[550px]:items-center max-[550px]">
+      <div className="flex gap-8 max-[550px]:flex-col max-[550px]:items-center max-[550px]">
         <BlurFade
           delay={0.5}
           inView
@@ -56,7 +56,7 @@ function ProjectCards() {
         </BlurFade>
       </div>
 
-      <div className="flex gap-8 max-w-[1500px] max-[550px]:flex-col max-[550px]:items-center">
+      <div className="flex gap-8 max-[550px]:flex-col max-[550px]:items-center">
         <BlurFade
           delay={0.5}
           inView
@@ -97,7 +97,7 @@ function ProjectCards() {
           </a>
         </BlurFade>
       </div>
-      <div className="flex gap-8 max-w-[1500px]">
+      <div className="flex gap-8">
         <BlurFade delay={0.5} inView className="w-full ">
           <a href="https://calculator-iota-one-98.vercel.ap</div>p/">
             <div className="flex flex-col">

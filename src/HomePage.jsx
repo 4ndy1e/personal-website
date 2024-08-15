@@ -10,7 +10,7 @@ function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPoint = 750; // Change this value to the point where you want to change color
+      const scrollPoint = 750;
       if (window.scrollY > scrollPoint) {
         setBgColor("#EEF1F4"); // New background color
       } else {
@@ -36,7 +36,7 @@ function Home() {
       <Nav />
       <Lander />
 
-      <section className="mx-[15vw] max-sm:mx-[10vw]">
+      <section className="flex flex-col mx-[15vw] max-sm:mx-[10vw] justify-center items-center">
         <Projects />
         <Experiences />
         <Footer />

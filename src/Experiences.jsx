@@ -2,7 +2,7 @@ import BlurFade from "./components/BlurFade";
 
 function Experiences() {
   return (
-    <div className="my-96 flex flex-col">
+    <div className="my-96 flex flex-col w-full">
       <h2 className="text-7xl font-bold my-16 text-left max-md:text-6xl max-md:text-center max-[550px]:text-5xl">
         Experience.
       </h2>
