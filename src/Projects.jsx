@@ -1,4 +1,5 @@
 import BlurFade from "./components/BlurFade";
+import React, { useState, useEffect } from "react";
 
 function Projects() {
   return (
@@ -16,6 +17,28 @@ function Projects() {
 }
 
 function ProjectCards() {
+  const defaultImage = "calculator.png";
+  const mobileImage = "calculatorLogo.png";
+  const [image, setImage] = useState(defaultImage);
+
+  useEffect(() => {
+    const handleImage = () => {
+      if (window.innerWidth > 550) {
+        setImage(defaultImage); // non-mobile device image
+      } else {
+        setImage(mobileImage); // mobile devices image
+      }
+    };
+
+    // Call handleImage initially to set the correct image based on the initial window width
+    handleImage();
+    window.addEventListener("resize", handleImage);
+
+    return () => {
+      window.removeEventListener("resize", handleImage);
+    };
+  }, []);
+
   return (
     <section className="flex flex-col gap-8">
       <div className="flex gap-8 max-[550px]:flex-col max-[550px]:items-center max-[550px]">
@@ -99,10 +122,10 @@ function ProjectCards() {
       </div>
       <div className="flex gap-8">
         <BlurFade delay={0.5} inView className="w-full ">
-          <a href="https://calculator-iota-one-98.vercel.ap</div>p/">
+          <a href="https://calculator-pzpro7gwm-4ndy1es-projects.vercel.app/">
             <div className="flex flex-col">
               <img
-                src="calculator.png"
+                src={image}
                 alt="calc"
                 className="rounded-[50px] hover:shadow-2xl max-[550px]:w-[250px] max-[550px]:aspect-square"
                 id="calcImage"
