@@ -6,9 +6,9 @@ function Lander() {
           Andy Le
         </h2>
         <h1>
-          Sofware Engineer
+          Frontend Engineer
           <br />
-          based in Phoenix.
+          based in Arizona
           <br />
         </h1>
         <h1>
