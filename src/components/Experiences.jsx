@@ -1,4 +1,4 @@
-import BlurFade from "./components/BlurFade";
+import BlurFade from "./BlurFade";
 
 function Experiences() {
   return (
