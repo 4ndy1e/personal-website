@@ -6,12 +6,12 @@ function Nav() {
       </div>
       <div className="h-[45px] justify-start items-center gap-[50px] flex">
         <div className="w-[30px] h-[45px] flex-col justify-center items-center inline-flex">
-          <a href="/">
+          <a href="home">
             <img className="w-[30px] h-[30px]" src="work.png" alt="Work" />
           </a>
         </div>
         <div className="w-[30px] h-[45px] flex-col justify-center items-center inline-flex">
-          <a href="/">
+          <a href="about">
             <img className="w-[30px] h-[30px]" src="profile.png" alt="About" />
           </a>
         </div>

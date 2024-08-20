@@ -4,8 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Nav from "./components/Nav";
 import ScrollChangeBackground from "./components/ScrollChangeBackground";
-import Home from "./HomePage";
-import { useEffect } from "react";
+import Home from "./HomePage.jsx";
 
 function App() {
   return (
