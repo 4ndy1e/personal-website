@@ -5,13 +5,13 @@ function Lander() {
         <h2 className="text-white text-3xl font-bold font-['Inter'] max-lg:text-2xl max-sm:text-xl">
           Andy Le
         </h2>
-        <h1>
+        <h1 className="my-16 leading-none max-lg:text-5xl max-sm:text-4xl max-sm:my-8 max-[480px]:text-3xl">
           Frontend Engineer
           <br />
           based in Arizona
           <br />
         </h1>
-        <h1>
+        <h1 className="my-16 leading-none max-lg:text-5xl max-sm:text-4xl max-sm:my-8 max-[480px]:text-3xl">
           Student at
           <br />
           <span className="asu">Arizona State University</span>
