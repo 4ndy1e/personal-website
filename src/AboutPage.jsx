@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import Info from "./components/info";
+import Info from "./components/Info.jsx";
 import Education from "./components/Education";
 import Hobbies from "./components/Hobbies";
 
