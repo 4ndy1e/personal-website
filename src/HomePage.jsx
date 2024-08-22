@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Lander from "./Lander";
-import Nav from "./Nav";
-import Projects from "./Projects";
-import Experiences from "./Experiences";
-import Footer from "./Footer";
+import Lander from "./components/Lander";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
+import Experiences from "./components/Experiences";
+import Footer from "./components/Footer";
 
 function Home() {
   const [bgColor, setBgColor] = useState("black");

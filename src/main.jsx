@@ -1,13 +1,30 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
-import Nav from "./Nav.jsx";
 import Home from "./HomePage.jsx";
-import ScrollChangeBackground from "./ScrollChangeBackground.jsx";
+import App from "./App.jsx";
+import AboutPage from "./AboutPage.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "home",
+    element: <Home />,
+  },
+  {
+    path: "about",
+    element: <AboutPage />,
+  },
+]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Home />
+    <RouterProvider router={router} />
   </StrictMode>
 );

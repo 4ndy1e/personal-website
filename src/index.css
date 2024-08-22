@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  @apply text-white text-[75px] font-bold font-['Inter'] my-16 leading-none max-lg:text-5xl max-sm:text-4xl max-sm:my-8 max-[480px]:text-3xl;
+  @apply text-white text-[75px] font-bold font-['Inter'];
 }
 
 .asu {
@@ -61,4 +61,20 @@ h4 {
 
 h5 {
   @apply font-['Inter'] font-medium text-3xl max-[550px]:text-xl;
+}
+
+.aboutSect {
+  @apply text-2xl font-bold font-['Inter'] text-left;
+}
+
+.aboutDesc {
+  @apply text-base font-normal font-['Inter'] text-left;
+}
+
+.imgCaption {
+  @apply text-[#b4b4b4] text-sm font-normal font-['Inter'];
+}
+
+.activities {
+  @apply text-2xl font-bold font-['Inter'] text-left;
 }
