@@ -35,7 +35,7 @@ function Images() {
     <div className="flex w-[60%] items-center gap-8">
       <div className="w-3/5">
         <img src="meSnow.png " className="rounded-3xl"></img>
-        <p className="imgCaption"> Snow in Northern Arizona</p>
+        <p className="imgCaption m-4"> Snow in Northern Arizona</p>
       </div>
       <div className="flex flex-col gap-8 w-2/5">
         <img src="meSnow2.png" className="rounded-3xl" />

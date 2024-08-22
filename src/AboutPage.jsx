@@ -9,10 +9,16 @@ function AboutPage() {
         <h1 className="text-black text-left"> Hi, I'm Andy...</h1>
       </div>
       <Info />
-      <div className="bg-slate-300 w-full">
-        <p> Eduction. </p>
+      <div className="w-full m-28">
+        <p className="text-right border-t-2 text-[#b4b4b4] font-bold text-2xl">
+          Education.
+        </p>
       </div>
-      <Info />
+      <div className="w-full m-28">
+        <p className="text-left border-t-2 text-[#b4b4b4] font-bold text-2xl">
+          Hobbies.
+        </p>
+      </div>
     </section>
   );
 }
