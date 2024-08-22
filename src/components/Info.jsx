@@ -2,7 +2,7 @@ function Info() {
   return (
     <section className="flex items-center">
       <div className="border-black w-[40%] pr-24">
-        <p className="aboutSect"> Info. </p>
+        <p className="aboutSect text-[#b4b4b4]"> Info. </p>
         <br></br>
         <p className="aboutDesc">
           I am currently a undergraduate student with a passion for
