@@ -122,7 +122,7 @@ function ProjectCards() {
       </div>
       <div className="flex gap-8">
         <BlurFade delay={0.5} inView className="w-full ">
-          <a href="https://calculator-pzpro7gwm-4ndy1es-projects.vercel.app/">
+          <a href="https://4ndy1e.github.io/calculator/" target="_blank">
             <div className="flex flex-col">
               <img
                 src={image}
