@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Info from "./components/Info.jsx";
 import Education from "./components/Education";
 import Hobbies from "./components/Hobbies";
+import Footer from "./components/Footer.jsx";
 
 function AboutPage() {
   return (
@@ -23,6 +24,7 @@ function AboutPage() {
         </p>
       </div>
       <Hobbies />
+      <Footer />
     </section>
   );
 }
