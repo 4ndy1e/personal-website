@@ -34,12 +34,12 @@ function Images() {
   return (
     <div className="flex w-[60%] items-center gap-8">
       <div className="w-3/5">
-        <img src="meSnow.png " className="rounded-3xl"></img>
+        <img src="snow1.jpg" className="rounded-3xl"></img>
         <p className="imgCaption m-4"> Snow in Northern Arizona</p>
       </div>
       <div className="flex flex-col gap-8 w-2/5">
-        <img src="meSnow2.png" className="rounded-3xl" />
-        <img src="meSnow3.png" className="rounded-3xl" />
+        <img src="snow2.jpg" className="rounded-3xl" />
+        <img src="snow3.jpg" className="rounded-3xl" />
       </div>
     </div>
   );

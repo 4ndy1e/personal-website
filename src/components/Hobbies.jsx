@@ -31,12 +31,12 @@ function Images() {
   return (
     <div className="flex w-[60%] gap-8">
       <div className="w-7/10">
-        <img src="vietnam.png" className="rounded-3xl" />
+        <img src="vietnam.jpg" className="rounded-3xl" />
         <p className="imgCaption m-4"> Summer 2023 trip to Vietnam </p>
       </div>
       <div className="flex flex-col gap-8 w-3/10">
-        <img src="hawaii.png" className="rounded-3xl" />
-        <img src="lilypads.png" className="rounded-3xl w-2/3 h-1/3" />
+        <img src="hawaii.jpg" className="rounded-3xl" />
+        <img src="lilypads.jpg" className="rounded-3xl w-2/3 h-1/3" />
       </div>
     </div>
   );
