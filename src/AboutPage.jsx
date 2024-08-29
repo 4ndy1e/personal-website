@@ -9,7 +9,10 @@ function AboutPage() {
     <section className="flex flex-col mx-[5vw] max-sm:mx-[10vw] items-center mt-48">
       <Nav />
       <div className="w-full mb-48">
-        <h1 className="text-black text-left"> Hi, I'm Andy...</h1>
+        <h1 className="text-black text-left max-md:text-center text-md:text-[60px]">
+          {" "}
+          Hi, I'm Andy...
+        </h1>
       </div>
       <Info />
       <div className="w-full m-28">
