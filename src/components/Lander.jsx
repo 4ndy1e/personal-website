@@ -6,7 +6,7 @@ function Lander() {
           Andy Le
         </h2>
         <h1 className="my-16 leading-none max-lg:text-5xl max-sm:text-4xl max-sm:my-8 max-[480px]:text-3xl">
-          Frontend Engineer
+          Software Developer
           <br />
           based in Arizona
           <br />

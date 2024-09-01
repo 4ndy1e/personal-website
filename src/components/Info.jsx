@@ -1,7 +1,7 @@
 function Info() {
   return (
     <section className="flex items-center max-md:flex-col">
-      <div className="border-black w-[50%] pr-24 max-lg:pr-16 max-lg:w-[60%] max-md:px-8 max-md:w-full">
+      <div className="border-black w-[50%] pr-24 max-lg:pr-16 max-lg:w-[60%] max-md:px-4 max-md:w-full">
         <p className="aboutDesc">
           I am currently a undergraduate student with a passion for
           <strong> design and software development</strong>.
