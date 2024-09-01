@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <section className="w-full flex flex-col gap-8 ">
+    <section className="w-full flex flex-col gap-8 max-[550px]:px-4">
       <div className="flex gap-16 items-center max-lg:gap-8 max-md:flex-col-reverse max-md:gap-16">
         <img
           src="westCampus.jpeg"

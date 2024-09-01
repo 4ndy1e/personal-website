@@ -76,5 +76,5 @@ h5 {
 }
 
 .activities {
-  @apply text-2xl font-bold font-['Inter'] text-left;
+  @apply text-2xl font-bold font-['Inter'] text-left max-md:text-xl max-sm:text-lg;
 }
