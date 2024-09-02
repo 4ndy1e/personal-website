@@ -2,10 +2,24 @@ import BlurFade from "./BlurFade";
 
 function Experiences() {
   return (
-    <div className="my-96 flex flex-col w-full">
+    <div className="my-92 flex flex-col w-full">
       <h2 className="text-7xl font-bold my-16 text-left max-md:text-6xl max-md:text-center max-[550px]:text-5xl">
         Experience.
       </h2>
+      <BlurFade delay={0.5} inView>
+        <Work
+          name="Horizon Labs"
+          role="Software Developer Intern"
+          date="Sept 2024 - Jan 2025"
+        />
+      </BlurFade>
+      <BlurFade delay={0.5} inView>
+        <Work
+          name="Nexus DevOps"
+          role="Lead UI/UX Designer"
+          date="July 2024 - Oct 2024"
+        />
+      </BlurFade>
       <BlurFade delay={0.5} inView>
         <Work
           name="Activate"
@@ -27,28 +41,21 @@ function Experiences() {
           date="Dec 2023 - June 2024"
         />
       </BlurFade>
-      <BlurFade delay={0.5} inView>
-        <Work
-          name="West-MEC"
-          role="Electrical Apprentice"
-          date="Aug 2022 - May 2023"
-        />
-      </BlurFade>
     </div>
   );
 }
 
 function Work({ name, role, date }) {
   return (
-    <div className="flex justify-between my-12">
-      <div className="flex flex-col text-left">
+    <div className="flex justify-between my-12 max-[550px]:flex-col max-[550px]:gap-4">
+      <div className="flex flex-col text-left max-[550px]:text-center">
         <h5>{name}</h5>
         <p className="text-[#B4B4B4] max-md:text-sm max-[550px]:text-xs">
           {role}
         </p>
       </div>
       <div>
-        <p className="text-xl text-[#B4B4B4] max-md:text-base font-['Inter'] max-[550px]:text-xs">
+        <p className="text-xl font-extralight max-md:text-base font-['Inter'] max-[550px]:text-sm">
           {date}
         </p>
       </div>
