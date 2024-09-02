@@ -8,6 +8,20 @@ function Experiences() {
       </h2>
       <BlurFade delay={0.5} inView>
         <Work
+          name="Horizon Labs"
+          role="Software Developer Intern"
+          date="Sept 2024 - Jan 2025"
+        />
+      </BlurFade>
+      <BlurFade delay={0.5} inView>
+        <Work
+          name="Nexus DevOps"
+          role="Lead UI/UX Designer"
+          date="July 2024 - Oct 2024"
+        />
+      </BlurFade>
+      <BlurFade delay={0.5} inView>
+        <Work
           name="Activate"
           role="Frontend Software Engineer"
           date="May 2024 - Aug 2024"
@@ -25,13 +39,6 @@ function Experiences() {
           name="Tutor Doctor"
           role="Comp Sci & Math Tutor"
           date="Dec 2023 - June 2024"
-        />
-      </BlurFade>
-      <BlurFade delay={0.5} inView>
-        <Work
-          name="West-MEC"
-          role="Electrical Apprentice"
-          date="Aug 2022 - May 2023"
         />
       </BlurFade>
     </div>
