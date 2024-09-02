@@ -60,7 +60,7 @@ h4 {
 }
 
 h5 {
-  @apply font-['Inter'] font-medium text-3xl max-[550px]:text-xl;
+  @apply font-['Inter'] font-bold text-3xl max-[550px]:text-xl;
 }
 
 .aboutSect {
